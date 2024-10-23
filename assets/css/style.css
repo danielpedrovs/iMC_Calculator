@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+input{
+  text-align: center;
+}
+.form-container{
+  text-align: center;
+}
+@media (max-width: 768px) {.container {
+  padding: 10px;
+}
+
+/* Ajustar o tamanho da tabela e conteúdo */
+table {
+  font-size: 14px;
+}
+
+th, td {
+  padding: 8px;
+}
+
+/* Ajustar inputs para largura total em telas menores */
+input, button {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* Ajustar o tamanho do título */
+.form-container h1 {
+  font-size: 24px;
+}
+}
+@media (max-width: 480px) {
+  /* Reorganizar o layout para telas muito pequenas */
+  .container {
+    padding: 5px;
+  }
+
+  /* Reduzir o tamanho da tabela ainda mais */
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+
+  /* Ajustar o tamanho do título */
+  .form-container h1 {
+    font-size: 20px;
+  }
+}
+
+#imcMessage{
+font-family: sans-serif;
+
+font-display: bold;
+font-size: 80%;
+}
+
+th, td {
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  align-items: center;
+  text-align: center;
+}
+td, th {
+  background-color: #a8d6c9;
+}
+
+table{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 80px;
+  align-self: center;
+  padding-top: 5px;
+  width: 80%;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:small;
+  border-spacing: 1px;
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin:0;
+  padding:0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+form button:active{
+  background-color: #fff;
+}
