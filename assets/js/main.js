@@ -1,10 +1,5 @@
 function meuEscopo(){
 
-    if (!peso || !altura) {
-        imcMessage.innerHTML = "<p>Por favor, insira valores válidos.</p>";
-        alert("Por favor, insira valores válidos.");
-        return;
-      }
       
       
 const form = document.querySelector('.form');
